@@ -1,0 +1,20 @@
+# .gitignore
+
+# Ignore Next.js build output
+/app_today-frontend/.next/
+
+# Ignore Rails generated files
+/app_today-backend/node_modules/
+/app_today-backend/tmp/
+/app_today-backend/log/
+/app_today-backend/public/assets/
+/app_today-backend/public/packs/
+/app_today-backend/public/packs-test/
+/app_today-backend/public/uploads/
+/app_today-backend/public/system/
+
+# Ignore any other generated files or directories
+/app_today-frontend/node_modules/
+/app_today-backend/.bundle/
+/app_today-backend/vendor/
+/app_today-backend/db/*.sqlite3
